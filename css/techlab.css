@@ -1,0 +1,496 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+html {
+    font-size: 100%; 
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    
+}
+
+
+.cbp-rfgrid h1 {
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 4px;
+    font-size: 1.5em;
+    line-height: 100px;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+h1 {
+     text-transform: uppercase;
+    color: #333;
+    letter-spacing: 4px;
+    font-size: 1.5em;
+    line-height: 70px;
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+
+
+img {
+    border: 0; 
+    }  
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: 'Roboto', 'Roboto Slab', serif, 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 420px;
+ background-color:  RGB #F5F5F5;
+    position: relative;
+    margin-bottom: 15px;
+}
+header ul {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+header ul li{
+    display: inline-block;
+    margin-left: -0.40em;
+}
+header ul li a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+}
+header ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+.modal{
+    display: block;
+    background-color:  #FFFFFF;
+    margin: 0 auto; 
+    width:250px;
+    height: 350px;
+    margin-top: 100px;   
+}
+
+.system{
+    text-align: center;
+    padding-top: 20px;  
+    color: #B22222; 
+}
+
+
+#intro {
+    padding-top: 10px;
+    margin: 70px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+
+#content {
+    line-height: 32px;
+    text-align: center;
+    height: 400px;
+}
+
+
+#contactwrapper {
+    width: 100%;
+    position:relative;
+    border-bottom: 2px solid #EEE;
+    border-top: 2px solid #EEE;
+    background-color: #F9F9F9;
+    height: 600px;
+}
+
+
+#contact {
+    line-height: 32px;
+    height: 500px;
+    padding-top: 83px;
+    margin-bottom: 70px;
+    padding-left: 13%;
+    background-color: #F9F9F9;
+    float: left;
+}
+
+
+#map {
+    float: left;
+    height: 425px;
+    width: 425px;
+    margin-top: 83px;
+    margin-left: 150px;
+    line-height: 32px;
+
+}
+
+
+
+footer {
+    text-align: center;
+    margin-bottom: 70px;
+    clear: both;
+}
+
+#footersocial li {display: inline-block; font-size: 20px; padding: 5px;}
+
+
+
+
+
+.cbp-rfgrid {
+    margin: 35px 0 0 0;
+    padding-left: 70px;
+    padding-right: 70px;
+    list-style: none;
+    position: relative;
+   
+}
+ 
+.cbp-rfgrid li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 16.6666667%; 
+    width: -webkit-calc(100% / 6);
+    width: calc(100% / 6);
+}
+ 
+.cbp-rfgrid li a,
+.cbp-rfgrid li a img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+   
+}
+ 
+.cbp-rfgrid li a img {
+    max-width: 100%;
+   
+}
+ 
+
+.cbp-rfgrid li a div {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: rgba(221,221,221,0.8);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+}
+ 
+.cbp-rfgrid li a:hover div {
+    opacity: 1;
+}
+ 
+.cbp-rfgrid li a div h3 {
+    width: 100%;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    /*padding: 0 10px;*/
+    text-align: center;
+    font-weight: 300;
+}
+
+
+ 
+
+
+
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, textarea:focus {
+    border: 1px solid rgb(170, 170, 170);
+    color: rgb(68, 68, 68);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 13px 13px;
+    outline: medium none;
+    
+    color: rgb(119, 119, 119);
+    margin: 0px 0px 20px;
+    width: 310px;
+    max-width: 100%;
+    display: block;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+}
+
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%) repeat scroll 0% 0% rgb(238, 238, 238);
+    border-right: 1px solid rgb(170, 170, 170);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204) rgb(170, 170, 170) rgb(170, 170, 170) rgb(204, 204, 204);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: rgb(68, 68, 68);
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-shadow: 0px 1px rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    margin-bottom: 20px;
+    line-height: normal;
+    padding: 13px 13px;
+}
+
+.button:hover,
+    button:hover,
+    input[type="submit"]:hover,
+    input[type="reset"]:hover,
+    input[type="button"]:hover {
+        color: #222;
+        background: #ddd; /* Old browsers */
+        background: #ddd -moz-linear-gradient(top, rgba(255,255,255,.3) 0%, rgba(0,0,0,.3) 100%); /* FF3.6+ */
+        background: #ddd -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.3)), color-stop(100%,rgba(0,0,0,.3))); /* Chrome,Safari4+ */
+        background: #ddd -webkit-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Chrome10+,Safari5.1+ */
+        background: #ddd -o-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Opera11.10+ */
+        background: #ddd -ms-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* IE10+ */
+        background: #ddd linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* W3C */
+      border: 1px solid #888;
+      border-top: 1px solid #aaa;
+      border-left: 1px solid #aaa;
+      }
+
+    .button:active,
+    button:active,
+    input[type="submit"]:active,
+    input[type="reset"]:active,
+    input[type="button"]:active {
+        border: 1px solid #666;
+        background: #ccc; /* Old browsers */
+        background: #ccc -moz-linear-gradient(top, rgba(255,255,255,.35) 0%, rgba(10,10,10,.4) 100%); /* FF3.6+ */
+        background: #ccc -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.35)), color-stop(100%,rgba(10,10,10,.4))); /* Chrome,Safari4+ */
+        background: #ccc -webkit-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Chrome10+,Safari5.1+ */
+        background: #ccc -o-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* Opera11.10+ */
+        background: #ccc -ms-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* IE10+ */
+        background: #ccc linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* W3C */
+        }
+
+@media screen and (max-width: 1190px) {
+    .cbp-rfgrid li {
+        width: auto; /* Fallback */
+        width: -webkit-calc(100% / 5);
+        width: calc(100% / 5);
+    }
+    
+    #content {
+    line-height: 32px;
+    text-align: center;
+    height: 400px;
+    }
+    
+    #map {
+    float: left;
+    height: auto;
+    width: auto;
+    margin-top: 83px;
+    margin-left: 90px;
+    line-height: 32px;
+}
+    
+}
+ 
+@media screen and (max-width: 945px) {
+    .cbp-rfgrid li {
+        width: 25%; /* Fallback */
+        width: -webkit-calc(100% / 4);
+        width: calc(100% / 4);
+    }
+    
+    #content {
+    line-height: 32px;
+    text-align: center;
+    height: 450px;
+    }
+    
+    #map {float: left;
+    height: auto;
+    width: auto;}
+    
+    #intro {
+    padding-top: 100px;
+    margin: 70px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    }
+    
+
+@media screen and (max-width: 400px) {
+    .cbp-rfgrid li {width: 50%; /* Fallback */width: -webkit-calc(100% / 2);width: calc(100% / 2);
+    }
+    
+    #content {line-height: 32px;text-align: center;height: 500px;}
+    
+    footer {text-align: center; margin-bottom: 70px; clear: both;}
+
+    #footersocial li {display: inline-block; font-size: 18px; padding: 23px;}
+    
+    input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 13px 13px;
+    outline: medium none;
+    /*border-radius: 2px 2px 2px 2px;*/
+    color: rgb(119, 119, 119);
+    margin: 0px 0px 20px;
+    width: 210px;
+    max-width: 100%;
+    display: block;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    }
+    
+    .cbp-rfgrid li a div h3 {
+    width: 100%;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 400;
+    }
+    
+     #map {display: none;}
+
+    #intro {
+    padding-top: 90px;
+    margin: 52px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 300;
+    }
+    
+    
+  
+
+
+
+.cbp-af-header h1 {-webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s;}
+
+.cbp-af-header.cbp-af-header-shrink {height: 90px;}
+
+.cbp-af-header.cbp-af-header-shrink h1 {line-height: 90px;}
+
+.cbp-af-header.cbp-af-header-shrink h1 {font-size: 2em;}
+
+
+    
+}
+ 
+@media screen and (max-width: 300px) {
+    .cbp-rfgrid li {
+        width: 100%;
+    }
+    
+         #map {display: none;}
+
+    #content {
+    line-height: 32px;
+    text-align: center;
+    height: 190px;
+    }
+    
+    #contactwrapper {
+    width: 100%;
+    position:relative;
+    border-bottom: 2px solid #EEE;
+    border-top: 2px solid #EEE;
+    background-color: #F9F9F9;
+    height: 600px;
+    }
+
+    #contact {
+    line-height: 32px;
+    height: 500px;
+    padding-top: 83px;
+    margin-bottom: 70px;
+    padding-left: 13%;
+    background-color: #F9F9F9;
+    float: left;
+
+    }
+    
+    footer {text-align: center; margin-bottom: 70px; clear: both;}
+
+    #footersocial li {display: inline-block; font-size: 16px; padding: 23px;}
+    
+    input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    border: 1px solid rgb(204, 204, 204);
+    padding: 13px 13px;
+    outline: medium none;
+    /*border-radius: 2px 2px 2px 2px;*/
+    color: rgb(119, 119, 119);
+    margin: 0px 0px 20px;
+    width: 180px;
+    max-width: 100%;
+    display: block;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    }
+
+
+}
+
+
+
+.cbp-rfgrid img {
+
+  max-width: 100%;
+  display: inline-block;
+}
+/* Для средних устройств (планшеты) */
+@media (min-width: 420px) {
+  img {
+    max-width: 48%;
+  }
+}
+/* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+  img {
+    max-width: 24%;
+  }
+}
+
